@@ -22,7 +22,11 @@ button{
     height: 40px;
     background: #FFBA02;
     border-top: 2px solid #C71610;
-
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear; 
 }
 
 button:hover{
@@ -31,6 +35,7 @@ button:hover{
 
 button:active{
     background: #C71610;
+
 }
 
 body{
