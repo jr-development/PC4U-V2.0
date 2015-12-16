@@ -17,6 +17,22 @@
 	font-size: 18px;
 }
 
+button{
+    width: 100%;
+    height: 40px;
+    background: #FFBA02;
+    border-top: 2px solid #C71610;
+
+}
+
+button:hover{
+    background: #FF5400;
+}
+
+button:active{
+    background: #C71610;
+}
+
 body{
 	background-color: #e6e6e6;
 }
