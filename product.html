@@ -11,6 +11,111 @@
 
 		.content_wrapper{
 			background: rgba(157, 157, 157, 0.5);
+			border: 3px solid rgba(157, 157, 157, 0.75);
+		}
+
+		.productimg {
+			width: 50%;
+			height: 50%;
+			background: #e6e6e6;
+			padding-left: 17% ;
+			padding-right: 17% ;
+		}
+
+		.productimgs{
+			text-align: center;
+		}
+
+		.thumbnails{
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+
+		.thumbnail{
+			width: 20%;
+			height: 20%;
+			display: inline-block;
+		}
+
+		.thumbnail img{
+			width: 100%;
+			height: 100%;
+			background: #e6e6e6;
+		}
+
+		.specs, .productinfo{
+			padding: 15px;
+		}
+
+		.specs p, .productinfo p{
+			margin-top: 7px;
+		}
+
+		.textcenter{
+			text-align: center;
+		}
+
+		.price{
+			
+			text-align: center;
+			font-size: 35px;
+		}
+
+		.buy{
+			margin-top: 15px;
+		}
+
+		.specstable table td{
+			border: 1px #000 solid;
+		}
+
+		.specstable{
+
+			padding: 0px;
+			overflow-y: auto;
+			overflow-x: auto;
+		}
+
+		.specstable table{
+
+			width: 100%;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+
+		.specstable td{
+			font-size: 12px;
+			width: 10%;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.specstable tr:nth-child(even){
+			background: #c71610;
+			-webkit-transition: all 1000ms linear;
+		    -moz-transition: all 1000ms linear;
+		    -o-transition: all 1000ms linear;
+		    -ms-transition: all 1000ms linear;
+		    transition: all 1000ms linear; 
+		    color: #e6e6e6;
+		}
+
+		.specstable tr:nth-child(odd){
+			background: #ff5400;
+			-webkit-transition: all 1000ms linear;
+		    -moz-transition: all 1000ms linear;
+		    -o-transition: all 1000ms linear;
+		    -ms-transition: all 1000ms linear;
+		    transition: all 1000ms linear; 
+		}
+
+		.specstable tr:nth-child(even):hover{
+			background: #ff5400;
+		}
+
+		.specstable tr:nth-child(odd):hover{
+			background: #c71610;
 		}
 	</style>
 </head>
@@ -75,7 +180,148 @@
             </div>
 			<div class="content_wrapper">
 				
-				<!-- CONTENT -->
+				<div class="procent_33">
+					<div class="productimgs">
+						<img src="images/pc-image2.png" alt="pc" class="productimg">
+						<div class="thumbnails">
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="specs">
+						<h1>Specificaties</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ullam nam quo, officiis cum, maiores fugit officia repudiandae quos. Similique omnis sequi modi fuga accusantium nostrum a? Provident, mollitia, recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ut aliquid veniam veritatis, quos minima, dolorum sapiente aut atque impedit corporis, dolores recusandae consequuntur harum provident iure perferendis distinctio. Iure!</p>
+					</div>
+				</div>
+
+				<div class="procent_33">
+					<div class="productinfo">
+						<h1>Asus F55LA-DM2095T</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam eius, id officia dolores omnis vero fuga nisi iusto, tempora ab pariatur ex dolore fugiat. Modi officiis, porro veritatis aliquid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente eos maxime maiores a nam nemo ullam omnis adipisci, provident deserunt recusandae hic nesciunt officia illo fugiat harum consequuntur ex.</p>
+						<div class="buy">
+							<div class="procent_50">
+								<h3 class="price">€ 699,-</h3>
+							</div>
+							<div class="procent_50">
+								<button>Bestellen</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="procent_33">
+					<div class="specstable">
+					<h1>Alle specificaties</h1>
+					<table>
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+
+						</table>
+					</div>
+				</div>
 
 			</div>
 		</div>
