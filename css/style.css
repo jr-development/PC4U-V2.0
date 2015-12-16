@@ -99,14 +99,12 @@ h3{
 .full_width{
 	width: 100%;
     overflow: hidden;
-    border: solid 1px black;
 }
 
 .procent_75{
 	float: left;
 	width: 74%;
     overflow: hidden;
-    border: solid 1px black;
 }
 
 .procent_50{
@@ -126,7 +124,6 @@ h3{
 	float: left;
 	width: 24%;
     overflow: hidden;
-    border: solid 1px black;
 }
 
 li{
