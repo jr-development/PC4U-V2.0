@@ -31,6 +31,7 @@ button{
 
 button:hover{
     background: #FF5400;
+    cursor: pointer;
 }
 
 button:active{
