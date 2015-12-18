@@ -91,12 +91,12 @@ input, select, textarea{
 }
 
 .logo{
-    background-image: url('../images/logo/Logo.png');
+    background-image: url('../images/logo/LOGO_GOED_Website_PC4U.png');
     background-repeat: no-repeat;
-    height: 110px;
+    height: 120px;
     width: 400px;
     float: left;
-    margin-left: -20px;
+    margin-left: px;
     vertical-align: middle;
     background-size: 100% 100%;
 }
