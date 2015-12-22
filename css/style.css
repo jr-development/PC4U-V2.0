@@ -120,6 +120,10 @@ input, select, textarea{
 
 .cart:hover {
     background-image: url('../images/winkelwagen_red.png');
+    -webkit-transform: translate(-50px,0);
+            -moz-transform: translate(-50px,0);
+            -o-transform: translate(-50px,0);
+            -ms-transform: translate(-50px,0);
 }
 
 .content_wrapper{
