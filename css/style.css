@@ -135,6 +135,7 @@ input, select, textarea{
 	float: right;
 	width: 73%;
 	padding: 1%;
+	padding-bottom: -5px;
 }
 
 .full_width{
