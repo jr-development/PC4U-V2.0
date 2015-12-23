@@ -6,11 +6,12 @@
 	<link rel="stylesheet" href="css/style.css">
 	<style>
 		
-		.content_wrapper .wrapper {
+		.content_wrapper .wrapper-table {
 			width: 95%;
 			background: #e6e6e6;
-			height: 450px;
+			height: 445px;
 			padding: 20px;
+
 		}
 
 		.primary-table td, .primary-table tr{
@@ -54,6 +55,40 @@
 
 		.fr{ 
 			float: right;
+		}
+
+		.wrapper-data-note {
+			background: #e6e6e6;
+			overflow: hidden;
+			display: flex;
+			padding: 15px;
+		}
+		.note{
+			width: 49%;
+			float: ;
+			border-left: solid black 1px;
+			padding: 10px;
+			margin-top: -11px;
+			height: 230px;
+		}
+		
+		.different-button {
+			width: 80px;
+			height: 35px;
+			margin-left: 50px;
+			margin-top: 10px;
+		}
+		
+		blockquote {
+			background-image: url(images/note.png);
+			height: 150px;
+			/*Krijg die note.png er niet in.................*/
+			
+		}
+		p.secundary-paragraph {
+			line-height: 35px;
+    		font-size: 23px;
+    		margin-top: 4px;
 		}
 
 		
@@ -121,7 +156,7 @@
             </div>
 			<div class="content_wrapper">
 
-				<section class="wrapper">
+				<section class="wrapper-table">	
 
 					<section class="primary-table">
 						<h1> Product controle </h1>
@@ -153,7 +188,9 @@
 						</table>
 
 					</section>
-					<section>
+
+				
+					<section class="wrapper-data-note">
 						
 						<section class="data-control">
 							<h1> Gegevens controle </h1>
@@ -182,8 +219,16 @@
 						<p class="paragraph"> Druk alleen op afrekenen indien u akkoord gaat met bovenstaande gegevens. </p>
 
 						</section>
-						<section>
-							
+						<section class="note">
+							<h1> Opmerking </h1>
+							<blockquote class="blocknote">
+								<p class="secundary-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta quis tenetur vitae sunt unde tempore, suscipit eaque ipsa facilis distinctio error cum fugit quas </p>
+							</blockquote>
+
+							<a href="print.html"><button class="different-button">Printen</button></a>
+							<a href="gegevens.html"><button class="different-button">Terug</button></a>
+							<a href="winkelwagen.html"><button class="different-button">Afrekenen</button></a>
+
 						</section>
 
 					</section>
