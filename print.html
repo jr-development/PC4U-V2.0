@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PC4U - Factuur</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Minion Pro';
+	}
+
+	div{
+		margin-bottom: 25px;
+	}
+
+	h1{
+	color: #C71610;
+	font-family: 'Century Gothic';
+	font-size: 26px;
+	}
+
+	.h1small{
+		font-size: 16px;
+	}
+
+	h2{
+		color: #FFBA02;
+		font-family: 'MS sans serif';
+		font-size: 24px;
+	}
+
+	h3{
+		color: #0E0E0E;
+		font-family: 'Minion Pro Bold';
+		font-size: 22px;
+	}
+
+	h5{
+		color: red;
+	}
+
+	ol{
+		font-style: italic;
+		font-size: 20px;
+	}
+
+	.procent_100{
+		width: 100%;
+		text-align: center;
+	}
+
+	.procent_25{
+		float: left;
+		width: 23%;
+		margin-left: 2%;
+	}
+
+	.instructions{
+		background-color: #C2FBB7;
+		overflow: hidden;
+	}
+
+	.print_wrapper{
+		width: 99%;
+		margin: 0 auto;
+		margin-top: 25px;
+
+	}
+
+	.print_wrapper ul{
+		list-style-type: none;
+	}
+
+	.print_header{
+		width: 100%;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	.print_header .print_logo{
+		float: left;
+	   	background-image: url('images/logo/Logo.png');
+	    background-repeat: no-repeat;
+	    height: 120px;
+	    width: 400px;
+	   	text-align: center;
+	    background-size: 100% 100%;
+	    margin-left: -15px;
+}
+
+	.print_header .print_pc4u_info{
+		float: right;
+		width: 25%;
+		text-align: right;
+	}
+
+	.print_data{
+		overflow: hidden;
+	}
+
+	.print_addres{
+		float: left;
+		width: 70%;
+	}
+
+	.print_invoice{
+		float: right;
+		width: 30%;
+	}
+
+	.print_invoice_left{
+		float: left;
+		width: 50%;
+		text-align: right;
+	}
+
+	.print_invoice_right{
+		float: right;
+		width: 50%;
+		text-align: right;
+	}
+
+	.print_offer{
+		width: 100%;
+		
+	}
+
+	.print_offer table{
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.print_offer table th{
+		text-align: left;
+	}
+
+	.item{
+		border-bottom: 1px solid #D2D2D2;
+	}
+
+	.trhead{
+		border-bottom: 3px solid grey;
+	}
+
+	.last{
+		border-bottom: 1px solid #EDEDED;
+	}
+
+	.print_paymessage{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.print_paymessage p{
+		text-align: center;
+	}
+
+	.print_footer{
+		margin-top: 200px;
+		text-align: center;
+	}
+
+	@media print{
+		*{
+			-webkit-print-color-adjust: exact;
+		}
+
+		.no-print{
+			display: none;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="print_wrapper">
+		<div class="instructions no-print">
+			<div class="procent_100">
+				<h1>Print Instructies</h1><h1 class="h1small">Deze instructies worden niet mee geprint!</h1>
+				<h5>Het kan voorkomen dat de logo niet uitgeprint wordt. Dit kan alleen verholpen worden met de printinstellingen van uw browser</h5>
+			</div>
+			<div class="procent_25">
+				<h2>Chrome</h2>
+				<ol>
+					<li>Druk op ...</li>
+					<li>Druk op afdrukken</li>
+					<li>Kies de indeling en printer</li>
+					<li>Druk op Afdrukken</li>
+				</ol>
+			</div>
+			<div class="procent_25">
+				<h2>Firefox</h2>
+				<ol>
+					<li>Druk op ...</li>
+					<li>Druk op afdrukken</li>
+					<li>Kies de indeling en printer</li>
+					<li>Druk op Afdrukken...</li>
+				</ol>
+			</div>
+			<div class="procent_25">
+				<h2>Opera</h2>
+				<ol>
+					<li>Druk op Opera</li>
+					<li>Druk op afdrukken</li>
+					<li>Kies de indeling en printer</li>
+					<li>Druk op Afdrukken</li>
+				</ol>
+			</div>
+			<div class="procent_25">
+				<h2>Internet explorer</h2>
+				<ol>
+					<li>Druk op ...</li>
+					<li>Druk op afdrukken en vervolgens weer op afdrukken</li>
+					<li>Kies de indeling en printer</li>
+					<li>Druk op Afdrukken</li>
+				</ol>
+			</div>
+
+		</div>
+		<div class="print_header">
+			<div class="print_logo">
+				
+			</div>
+			<div class="print_pc4u_info">
+				<ul>
+					<li><strong>PC4U</strong></li>
+					<li>Terheijdenseweg 350</li>
+					<li>4826 AA Breda</li>
+					<li>&nbsp;</li>
+					<li>KvK: 01234567</li>
+					<li>BTW: 123456789</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="print_data">
+			<div class="print_addres">
+				<ul>
+					<li>De heer Elton</li>
+					<li>Terheijdenseweg 350</li>
+					<li>4826 AA Breda</li>
+				</ul>
+			</div>
+			<div class="print_invoice">
+				<div class="print_invoice_left">
+					<ul>
+						<li>Factuurdatum:</li>
+						<li>Vervaldatum:</li>
+						<li>Factuurnummer:</li>
+						<li>Betalingsmethode:</li>
+					</ul>
+				</div>
+				<div class="print_invoice_right">
+					<ul>
+						<li>23-12-2015</li>
+						<li>30-12-2015</li>
+						<li>0001</li>
+						<li>iDeal</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="print_offer">
+			<table>
+				<tr class="trhead">
+				 	<th>Product</th>
+					<th>Omschrijving</th>
+					<th>Aantal</th>
+					<th>Prijs</th>
+					<th>BTW</th>
+					<th>Totaal</th>
+				</tr>
+				<tr class="item">
+					<td>Asus F55LA-DM2095T</td>
+					<td>Super krachtige latop</td>
+					<td>1</td>
+					<td>€ 699,00</td>
+					<td>21%</td>
+					<td>€ 699,00</td>
+				</tr>
+				<tr class="item last">
+					<td>Windows 10</td>
+					<td>Nieuwste besturingssysteem van Microsoft</td>
+					<td>1</td>
+					<td>€ 59,00</td>
+					<td>21%</td>
+					<td>€ 59,00</td>
+				</tr>
+				<tr class="noborder">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Totaal excl. btw</td>
+					<td>€ 598,82</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>BTW 21%</td>
+					<td>€ 159,18</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><strong>Totaal inc. BTW</strong></td>
+					<td><strong>€ 758,00</strong></td>
+				</tr>
+				
+			</table>
+		</div>
+		<div class="print_paymessage">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque obcaecati tempora veniam perspiciatis provident debitis distinctio cumque quis numquam dolore ipsa recusandae unde nisi blanditiis, impedit deleniti autem sequi sint?</p>
+		</div>
+		<div class="print_footer">
+			<p>Voor eventuele vragen, klachten of overige neem contact op via de telefoonnummer: 076-1234567 of stuur een mail naar info@pc4u.nl</p>
+		</div>
+	</div>
+</body>
+</html>
