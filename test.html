@@ -5,7 +5,50 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
 	<style>
-		/* style here */
+		.copyright{
+			float: left;
+		}
+
+		.madeby{
+			float: right;
+		}
+		.footerr{
+			background-color: red;
+			overflow: hidden;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.footer_info{
+			background-color: rgba(14, 14, 14, 0.75);
+			color: #FFF7F7;
+			overflow: hidden;
+		}
+
+		.contactinfo ul li, .openinghours ul li{
+			margin-bottom: 2px;
+		}
+
+		.contactinfo ul{
+			margin-bottom: 20px;
+		}
+
+		.footer_info h2, .socialicon{
+			margin-bottom: 15px;
+		}
+
+		.footer_info{
+			padding: 20px 20px 0px 20px;
+		}
+
+		.socialicon, .payment{
+			float: left;
+			margin-right: 20px;
+		}
+
+		.payment{
+			margin-bottom: 10px;
+		}
 	</style>
 </head>
 <body>
@@ -73,47 +116,75 @@
 
 			</div>
 		</div>
+		<div class="full_width footerwrapper"></div>
+		<div class="footer_info">
+			<div class="procent_33 contactinfo">
+				<h2>PC4U</h2>
+				<ul>
+					<li>Terheijdenseweg 350</li>
+					<li>4826 AA Breda</li>
+				</ul>
 
-		<div class="footer">
-			<table>
-	            <tr>
-	                <td>
-	                    Bedrijfsnaam:
-	                </td>
-	                <td>
-	                    PC4U
-	                </td>
-	                <td>
-	                    Telefoonnumer:
-	                </td>
-	                <td>
-	                    076-1234567
-	                </td>
-	                <td class="subscript">Created by</td>
-	                <td class="socialmedia">facebook</td>
-	                <td class="socialmedia">Twitter</td>
-	            </tr>
-	            <tr>
-	                <td>
-	                    Adres:
-	                </td>
-	                <td>
-	                    Terheijdenseweg 350
-	                </td>
-	                <td>
-	                    Emailadres:
-	                </td>
-	                <td>
-	                    info@pc4u.nl
-	                </td>
-	                <td class="subscript">
-	                	JR-Webdevelopment
-	                </td>
-	                <td class="socialmedia">Google</td>
-	                <td class="socialmedia">Email</td>
-	            </tr>
+				<ul>
+					<li>T: 076 573 34 44</li>
+					<li>E: info@pc4u.nl</li>
+				</ul>
 
-	        </table>
+				<ul>
+					<li>KvK: 12345678</li>
+				</ul>
+			</div>
+			<div class="procent_33 openinghours">
+				<h2>Openingstijden</h2>
+				<div class="procent_50">
+				<ul>
+					<li>Maandag:</li>
+					<li>Dinsdag:</li>
+					<li>Woensdag:</li>
+					<li>Donderdag:</li>
+					<li>Vrijdag:</li>
+					<li>Zaterdag:</li>
+					<li>Zondag:</li>
+				</ul>
+				</div>
+				<div class="procent_50">
+				<ul>
+					<li>09:00 - 18:00</li>
+					<li>09:00 - 18:00</li>
+					<li>09:00 - 18:00</li>
+					<li>09:00 - 20:00</li>
+					<li>10:00 - 17:00</li>
+					<li>10:00 - 17:00</li>
+					<li>Gesloten</li>
+				</ul>
+				</div>
+			</div>
+			<div class="procent_33 socialmedia">
+				<h2>Social Media</h2>
+				<div class="socialicons">
+					<div class="socialicon"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></div>
+					<div class="socialicon"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></div>
+					<div class="socialicon"><img src="images/socialmedia/google.png" height="30" width="30" alt="Google"></div>
+					<div class="socialicon"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></div>
+				</div>
+
+				<h2>Betalingsmogelijkheden</h2>
+				<div class="payments">
+					<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
+					<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
+					<div class="payment"><img src="images/payments/creditcard.jpg" alt="Creditcard"></div>
+					<div class="payment"><img src="images/payments/rembours.png" alt="Rembours"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footerr">
+			<span class="copyright">
+				Copyright &copy; 2016 PC4U. Alle rechten voorbehouden.
+			</span>
+
+			<span class="madeby">
+				Developed by JR-Webdevelopment
+			</span>
 		</div>
 	</div>
 </body>
