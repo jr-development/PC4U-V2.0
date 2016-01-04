@@ -128,7 +128,7 @@ input, select, textarea{
 .content_wrapper{
 	background: rgba(157, 157, 157, 0.5);
     border: 3px solid rgba(157, 157, 157, 0.75);
-	height: 490px;
+	height: 484px;
 
 	overflow-y: auto;
 	margin-top: 10px;
