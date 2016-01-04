@@ -72,6 +72,57 @@
 
 		}
 
+#images {
+  width: 700px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  
+  margin: 20px auto;
+}
+#images img {
+  width: 700px;
+  height: 250px;
+  
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+
+#slider {
+	text-align: center;
+}
+
+#slider a {
+  text-decoration: none;
+  background: red;
+  
+  border-radius: 360px;
+  padding: 4px 6px;
+  color: #222;
+  font-size: 10px;
+  font-weight: bold;
+}
+#slider a:hover {
+  background: orange;
+}
+
 	</style>
 </head>
 <body>
@@ -135,7 +186,20 @@
             </div>
 			<div class="content_wrapper">
 				
-				<!-- CONTENT -->
+				<div id="images">
+  <img id="image1" src="images/pc.jpg" />
+  <img id="image2" src="images/pc-tel-tablet.jpg" />
+  <img id="image3" src="images/pc-hp.jpg"/>
+  <img id="image4" src="images/optische-muis.jpg"/>
+  <img id="image5" src="images/office2016.jpeg"/>
+</div>
+<div id="slider">
+  <a href="#image1">1</a>
+  <a href="#image2">2</a>
+  <a href="#image3">3</a>
+  <a href="#image4">4</a>
+  <a href="#image5">5</a>
+</div>
 
 			</div>
 		</div>
