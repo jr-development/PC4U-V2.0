@@ -85,7 +85,7 @@ input, select, textarea{
 	width: 100%;
 	height: 125px;
 	margin-bottom: 0px;
-    background-image: url('http://www.degordian.com/education/wp-upload/2015/02/facebook-benchmark-2014_cover-1024x381.jpg');
+    background-image: url('../images/header.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -196,12 +196,14 @@ a:visited{
 	float: left;
 	height: 150px;
 	width: 100%;
+    margin-top: 5px;
 }
 
 .offers .offer_images img{
-	
+	width: 19%;
+            height: 95%;
+            margin-top: 5px;
 	border: 1px solid #0e0e0e;
-    border-bottom: 1px black solid;
 }
 
 .subscript{
@@ -235,6 +237,14 @@ a:visited{
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
 }
+
+        .positioning{
+            margin-top: 20px;   
+        }
+
+        .positioning li {
+            padding: 3px;
+        }
 
 
 /* begin main-menu */
@@ -402,4 +412,292 @@ a:visited{
             -ms-transform: translate(0,-25%);
             background-color: darkgrey;
 
+        }
+
+
+
+        /* betalen.html */
+                .paymentimage_wrapper {
+            text-align: center;
+            
+        }
+
+        .paymentimage_wrapper .paymentimage{
+            width: 33%;
+            height: 215px;
+            display: inline-block;
+            margin-bottom: 20px;
+            border: 3px #000 solid;
+            margin-left: 15px;
+
+        }
+
+        .paymentimage_wrapper .paymentimage img{
+            width: 100%;
+            height: 74%;
+            background: #e6e6e6;
+            vertical-align: middle;
+        }
+
+        /* betalingsbevestiging.html */
+        .order {
+            margin-top: 20px;
+        }
+
+        /* computer.html */
+        .pc-images {
+            text-align: center;
+        }
+
+        .pc-images img{
+            width: 100%;
+            height: 100%;
+            background-color: #e6e6e6;          
+        }   
+        
+        .pc-image {
+            display: inline-block;
+            border: 3px #000 solid;
+            width: 30%;
+            height: 40%;
+            margin-bottom: 5px;
+
+        }
+
+        /* softhardware.html */
+        .image_wrapper {
+            text-align: center;
+            
+        }
+
+        .image_wrapper .image{
+            width: 20%;
+            height: 20%;
+            display: inline-block;
+            margin-bottom: 20px;
+            border: 3px #000 solid;
+
+        }
+
+        .image_wrapper .image img{
+            width: 100%;
+            height: 100%;
+            background: #e6e6e6;
+        }
+
+        /* winkelwagen.html */
+                .shopping-cart td {
+            border: solid 1px #000;
+            text-align: right;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .shopping-cart table {
+            float: right;
+            text-align: right;
+            width: 100%;
+        }
+
+        .shopping-cart-header { 
+            text-align: center;
+            margin-top: -8px;
+            margin-bottom: 10px;
+        }
+    
+        .cartactive {
+            background-image: url(../images/winkelwagen_red.png);
+       
+        }
+    
+        .shopping-cart td.noborder  {
+            border: none;
+            background: #e6e6e6;
+        }
+
+        .shopping-cart{
+            margin: auto;
+            margin-top: 20px;
+            width: 90%;
+            background: #e6e6e6;
+            border: 1px #000 solid;
+            height: 400px;
+            padding: 25px;
+        }
+        
+        .shopping-cart tr:nth-child(odd) { 
+            background: darkgrey;
+        }
+
+        .shopping-cart tr:nth-child(even){
+            background: #d3d3d3;
+        }
+        
+        button.btn_payment {
+            margin-top: 20px;
+            border-left: 1px solid red;
+        } 
+
+        /* gegevens.html */
+                .orderinfo, .orderform{
+            -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+            box-sizing: border-box;         /* Opera/IE 8+ */
+            padding: 10px;
+        }
+
+        .orderinfo p{
+            margin-top: 15px;
+        }  
+
+        /* informatie */
+                .about, .contactform{
+            -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+            box-sizing: border-box;         /* Opera/IE 8+ */
+            padding: 10px;
+        }
+
+        .about p{
+            margin-top: 15px;
+        }
+
+        /* product.html */
+                .productimg {
+            width: 50%;
+            height: 50%;
+            background: rgba(230, 230, 230, 0.5);
+            padding-left: 17% ;
+            padding-right: 17% ;
+        }
+
+        .productimgs{
+            text-align: center;
+        }
+
+        .thumbnails{
+            display: inline-block;
+            width: 100%;
+            height: auto;
+        }
+
+        .thumbnail{
+            width: 20%;
+            height: 20%;
+            display: inline-block;
+        }
+
+        .thumbnail img{
+            width: 100%;
+            height: 100%;
+            background: rgba(230, 230, 230, 0.5);
+            
+        }
+
+        .specs, .productinfo{
+            padding: 15px;
+        }
+
+        .specs p, .productinfo p{
+            margin-top: 7px;
+        }
+
+        .textcenter{
+            text-align: center;
+        }
+
+        .price{
+            
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .buy{
+            margin-top: 15px;
+        }
+
+        .specstable table td{
+            border: 1px #000 solid;
+        }
+
+        .specstable{
+
+            padding: 0px;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+        .specstable table{
+
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .specstable td{
+            font-size: 15px;
+            width: 10%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .specstable tr:nth-child(even){
+            background: #c71610;
+            color: #e6e6e6;
+        }
+
+        .specstable tr:nth-child(odd){
+            background: #ff5400;
+        }
+
+        /* full image */
+        #fullImage_cover{
+            position:fixed;
+            top:0;
+            left:0;
+            background: rgba(199, 22, 16, 0.8);
+            z-index:5;
+            width:100%;
+            height:100%;
+            display:none;
+        }
+        #fullImage
+        {
+            height:500px;
+            width:500px;
+            margin:0 auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index:10;
+            display:none;
+            background: url(images/pc-image2.png) no-repeat;
+            background-size: 100% 100%;
+            background-color: #cccccc;
+            border:5px solid #A4A4A4;
+            border-radius:10px;
+            margin-left: -250px;
+            margin-top: -250px;
+
+        }
+        #fullImage:target, #fullImage:target + #fullImage_cover{
+            display:block;
+            opacity:2;
+        }
+        .fullImage_cancel {
+            display:block;
+            position:absolute;
+            top:3px;
+            right:2px;
+            color:black;
+            height:30px;
+            width:35px;
+            font-size:30px;
+            text-decoration:none;
+            text-align:center;
+            font-weight:bold;
+        }
+
+        .fullImage_cancel:hover{
+            color: #c71610;
         }
