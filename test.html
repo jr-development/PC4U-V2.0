@@ -74,7 +74,7 @@
 
 #images {
   width: 700px;
-  height: 250px;
+  height: 350px;
   overflow: hidden;
   position: relative;
   
@@ -82,10 +82,10 @@
 }
 #images img {
   width: 700px;
-  height: 250px;
+  height: 350px;
   
   position: absolute;
-  top: 0;
+  
   left: -400px;
   z-index: 1;
   opacity: 0;
@@ -111,16 +111,25 @@
 
 #slider a {
   text-decoration: none;
-  background: red;
-  
+  background: #C71610;
   border-radius: 360px;
-  padding: 4px 6px;
-  color: #222;
-  font-size: 10px;
+  padding: 10px;
+  color: #FFF7F7;
+  font-size: 14px;
   font-weight: bold;
+    transition: all linear 250ms;
+  -o-transition: all linear 250ms;
+  -moz-transition: all linear 250ms;
+  -webkit-transition: all linear 250ms;
 }
 #slider a:hover {
-  background: orange;
+  background: #FFBA02;
+  color: #0e0e0e;
+}
+
+.header_overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
 }
 
 	</style>
@@ -128,12 +137,14 @@
 <body>
 	<div class="wrapper">
 		<div class="header">
+			<div class="header_overlay">
 			<div class="logo">
 			</div>
 			<a href="winkelwagen.html">
 				<div class="cart">
 				</div>
 			</a>
+			</div>
 		</div>
 
 		<div class="menu-content_wrapper">
@@ -187,12 +198,14 @@
 			<div class="content_wrapper">
 				
 				<div id="images">
-  <img id="image1" src="images/pc.jpg" />
-  <img id="image2" src="images/pc-tel-tablet.jpg" />
-  <img id="image3" src="images/pc-hp.jpg"/>
-  <img id="image4" src="images/optische-muis.jpg"/>
-  <img id="image5" src="images/office2016.jpeg"/>
+<img id="image0" src="" alt="">
+  <a href="product.html"><img id="image1" src="images/pc.jpg" /></a>
+  <a href="product.html"><img id="image2" src="images/pc-tel-tablet.jpg" /></a>
+  <a href="product.html"><img id="image3" src="images/pc-hp.jpg"/></a>
+  <a href="product.html"><img id="image4" src="images/optische-muis.jpg"/></a>
+  <a href="product.html"><img id="image5" src="images/office2016.jpeg"/></a>
 </div>
+
 <div id="slider">
   <a href="#image1">1</a>
   <a href="#image2">2</a>
@@ -206,7 +219,7 @@
 		<div class="full_width footerwrapper">
 		<div class="footer_info">
 			<div class="procent_33 contactinfo">
-				<h2>PC4U</h2>
+				<h1>PC4U</h1>
 				<ul>
 					<li>Terheijdenseweg 350</li>
 					<li>4826 AA Breda</li>
@@ -222,7 +235,7 @@
 				</ul>
 			</div>
 			<div class="procent_33 openinghours">
-				<h2>Openingstijden</h2>
+				<h1>Openingstijden</h1>
 				<div class="procent_50">
 				<ul>
 					<li>Maandag:</li>
@@ -247,7 +260,7 @@
 				</div>
 			</div>
 			<div class="procent_33 socialmedia">
-				<h2>Social Media</h2>
+				<h1>Social Media</h1>
 				<div class="socialicons">
 					<div class="socialicon"><a href="https://www.facebook.com"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></a></div>
 					<div class="socialicon"><a href="https://www.twitter.com"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></a></div>
@@ -255,7 +268,7 @@
 					<div class="socialicon"><a href="mailto:info@pc4u.nl"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></a></div>
 				</div>
 
-				<h2>Betalingsmogelijkheden</h2>
+				<h1>Betalingsmogelijkheden</h1>
 				<div class="payments">
 					<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
 					<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
