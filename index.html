@@ -13,7 +13,7 @@
   
   margin: 20px auto;
 }
-#images img {
+#images div {
   width: 700px;
   height: 350px;
   
@@ -28,12 +28,18 @@
   -moz-transition: all linear 500ms;
   -webkit-transition: all linear 500ms;
 }
-#images img:target {
+
+#images div img{
+	height: 100%;
+	width: 100%;
+}
+
+#images div:target {
   left: 0;
   z-index: 9;
   opacity: 1;
 }
-#images img:first-child {
+#images div:first-child {
   left: 0;
   opacity: 1;
 }
@@ -131,13 +137,14 @@
 			<div class="content_wrapper">
 				<div class="full_width offers">
 			
-									<div id="images">
-<img id="image0" src="" alt="">
-  <a href="product.html"><img id="image1" src="images/pc.jpg" /></a>
-  <a href="product.html"><img id="image2" src="images/pc-tel-tablet.jpg" /></a>
-  <a href="product.html"><img id="image3" src="images/pc-hp.jpg"/></a>
-  <a href="product.html"><img id="image4" src="images/optische-muis.jpg"/></a>
-  <a href="product.html"><img id="image5" src="images/office2016.jpeg"/></a>
+
+<div id="images">
+<div class="image0"></div>
+<div id="image1"><a href="product_HP_PC.html"><img src="images/hp_slimline.png" alt="pc"></a></div>
+<div id="image2"><a href="product_laptop_HP.html"><img src="images/HP_15....png" alt="pc tel laptop"></a></div>
+<div id="image3"><a href="product_acer_aspire.html"><img src="images/acer_aspire.png" alt="HP PC"></div></a>
+<div id="image4"><a href="product_ACER_ASPIRE_X.html"><img src="images/acer_aspire_x.png" alt="optische muis"></div></a>
+<div id="image5"><a href="product_Laptop_ACER_ASPIRE.html"><img src="images/laptop_acer_aspire.png" alt="office 2016"></div></a>
 </div>
 <div id="slider">
   <a href="#image1">1</a>
