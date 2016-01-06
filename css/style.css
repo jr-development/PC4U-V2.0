@@ -169,6 +169,18 @@ input, select, textarea{
     overflow: hidden;
 }
 
+.procent_40{
+            width: 39%;
+            overflow: hidden;
+            float: left;
+}
+
+.procent_20{
+            width: 19%;
+            overflow: hidden;
+            float: left;
+}
+
 .header_overlay{
     background-color: rgba(0, 0, 0, 0.6);
     overflow: hidden;
@@ -558,7 +570,7 @@ a:visited{
             margin-top: 15px;
         }
 
-        .specstable table td{
+        .specstable table td, .specs table td{
             border: 1px #000 solid;
         }
 
@@ -569,26 +581,26 @@ a:visited{
             overflow-x: auto;
         }
 
-        .specstable table{
+        .specstable table, .specs table{
 
             width: 100%;
             margin: 0 auto;
             margin-top: 10px;
         }
 
-        .specstable td{
+        .specstable td, .specs td{
             font-size: 15px;
             width: 10%;
             padding-left: 10px;
             padding-right: 10px;
         }
 
-        .specstable tr:nth-child(even){
+        .specstable tr:nth-child(even), .specs tr:nth-child(even){
             background: #c71610;
             color: #e6e6e6;
         }
 
-        .specstable tr:nth-child(odd){
+        .specstable tr:nth-child(odd), .specs tr:nth-child(odd){
             background: #ff5400;
         }
 
@@ -606,21 +618,21 @@ a:visited{
         }
         #fullImage
         {
-            height:500px !important;
-            width:500px !important;
-            margin:0 auto !important;
-            position: absolute !important;
-            left: 50% !important;
-            top: 50% !important;
-            z-index:10 !important;
+            height:500px;
+            width:500px;
+            margin:0 auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index:10;
             display:none;
             background: url(../images/pc-image2.png) no-repeat;
-            background-size: 100% 100% !important;
-            background-color: #cccccc !important;
-            border:5px solid #A4A4A4 !important;
-            border-radius:10px !important;
-            margin-left: -250px !important;
-            margin-top: -250px !important;
+            background-size: 100% 100%;
+            background-color: #cccccc;
+            border:5px solid #A4A4A4;
+            border-radius:10px;
+            margin-left: -250px;
+            margin-top: -250px;
 
         }
         #fullImage:target, #fullImage:target + #fullImage_cover{
