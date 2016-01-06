@@ -2,75 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>PC4U</title>
+	<title>Productpagina</title>
 	<link rel="stylesheet" href="css/style.css">
 	<style>
-		#images {
-  width: 700px;
-  height: 350px;
-  overflow: hidden;
-  position: relative;
-  
-  margin: 20px auto;
-}
-#images div {
-  width: 700px;
-  height: 350px;
-  
-  position: absolute;
-  background: url("images/beige_paper.png");
-  left: -400px;
-  z-index: 1;
-  opacity: 0;
-  
-  transition: all linear 750ms;
-  -o-transition: all linear 750ms;
-  -moz-transition: all linear 750ms;
-  -webkit-transition: all linear 750ms;
-}
-
-#images div img{
-	height: 100%;
-	width: 100%;
-}
-
-#images div:target  {
-  left: 0;
-  z-index: 9;
-  opacity: 1;
-}
-#images div:first-child {
-  left: 0;
-  opacity: 1;
-}
-
-#slider {
-	text-align: center;
-}
-
-#slider a {
-  text-decoration: none;
-  background: #C71610;
-  border-radius: 360px;
-  padding: 10px;
-  color: #FFF7F7;
-  font-size: 14px;
-  font-weight: bold;
-    transition: all linear 250ms;
-  -o-transition: all linear 250ms;
-  -moz-transition: all linear 250ms;
-  -webkit-transition: all linear 250ms;
-}
-#slider a:hover {
-  background: #FFBA02;
-  color: #0e0e0e;
-}
-
-.overlay{
-	background-color: rgba(255, 255, 255, 0.7);
-}
-
-
+		#fullImage{
+			background: url("images/office365.png") no-repeat;
+		}
 	</style>
 </head>
 <body>
@@ -89,7 +26,7 @@
 		<div class="menu-content_wrapper">
 			<div class="menu">
                 <ul class="ca-menu">
-                    <li class="active">
+                    <li>
                         <a href="index.html">
                             <span class="ca-icon">A</span>
                             <div class="ca-content">
@@ -135,48 +72,154 @@
                 </ul>
             </div>
 			<div class="content_wrapper">
-				<div class="full_width offers">
-			
-
-<div id="images">
-<div id="image1"><a href="product_HP_PC.html"><img src="images/hp_slimline.png" alt="pc"></a></div>
-<div id="image2"><a href="product_laptop_HP.html"><img src="images/HP_15....png" alt="pc tel laptop"></a></div>
-<div id="image3"><a href="product_acer_aspire.html"><img src="images/acer_aspire.png" alt="HP PC"></div></a>
-<div id="image4"><a href="product_ACER_ASPIRE_X.html"><img src="images/acer_aspire_x.png" alt="optische muis"></div></a>
-<div id="image5"><a href="product_Laptop_ACER_ASPIRE.html"><img src="images/laptop_acer_aspire.png" alt="office 2016"></div></a>
-</div>
-<div id="slider">
-  <a href="#image1">1</a>
-  <a href="#image2">2</a>
-  <a href="#image3">3</a>
-  <a href="#image4">4</a>
-  <a href="#image5">5</a>
-</div>
+				
+				<div class="procent_33">
+					<div class="productimgs">
+						<a href="#fullImage"><img src="images/pc-image2.png" alt="pc" class="productimg"></a>
+						<div class="thumbnails">
+							<div class="thumbnail">
+								<a href="#fullImage">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#fullImage">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#fullImage">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+							<div class="thumbnail">
+								<a href="#fullImage">
+									<img src="images/pc-image2.png" alt="pc thumbnail">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="specs">
+						<h1>Specificaties</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ullam nam quo, officiis cum, maiores fugit officia repudiandae quos. Similique omnis sequi modi fuga accusantium nostrum a? Provident, mollitia, recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ut aliquid veniam veritatis, quos minima, dolorum sapiente aut atque impedit corporis, dolores recusandae consequuntur harum provident iure perferendis distinctio. Iure!</p>
+					</div>
 				</div>
 
-				<div class="procent_75 positioning">
-					<h1>PC4U</h1>
-					<p class="homemessage">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, maiores est velit. Nulla rerum dolores porro eaque hic fugit, quclassem quaerat minima, magnam ab delectus culpa numquam nemo aspernatur inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incclassunt porro aspernatur atque nobis, quo recusandae beatae commodi error aut eum aliquam, animi voluptates quclassem repellendus nulla, labore ipsa itaque.</p>
+				<div class="procent_33">
+					<div class="productinfo">
+						<h1>Asus F55LA-DM2095T</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam eius, id officia dolores omnis vero fuga nisi iusto, tempora ab pariatur ex dolore fugiat. Modi officiis, porro veritatis aliquid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente eos maxime maiores a nam nemo ullam omnis adipisci, provident deserunt recusandae hic nesciunt officia illo fugiat harum consequuntur ex.</p>
+						<div class="buy">
+							<div class="procent_50">
+								<h3 class="price">€ 699,-</h3>
+							</div>
+							<div class="procent_50">
+								<a href="winkelwagen.html" class="href"><button>Bestellen</button></a>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="procent_25 positioning lborder">
-					<h3>Contact</h3>
-					<ul>
-						<li>Bedrijfsnaam:</li>
-						<li>PC4U</li>
-						<li>Adres:</li>
-						<li>Terheijdenseweg 350</li>
-						<li>Telefoonnummer:</li>
-						<li>076 - 1234567</li>
-						<li>Email adres:</li>
-						<li>info@pc4u.nl</li>
-						<li><a href="informatie.html">Vul het contactformulier in</a></li>
-					</ul>
+				<div class="procent_33">
+					<div class="specstable">
+					<h1>Alle specificaties</h1>
+					<table>
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+							<tr>
+								<td>Processor</td>
+								<td>I7</td>
+							</tr>
+							<tr>
+								<td>Ramgeheugen</td>
+								<td>16GB RAM</td>
+							</tr>
+							<tr>
+								<td>Harde schijf</td>
+								<td>1TB HDD</td>
+							</tr>
+							<tr>
+								<td>Solid State Drive</td>
+								<td>128 GB</td>
+							</tr>
+							<tr>
+								<td>Videokaart</td>
+								<td>NVIDIA GTX</td>
+							</tr>
+							<tr>
+								<td>Beeldscherm</td>
+								<td>19" (inch)</td>
+							</tr>
+							<tr>
+								<td>Besturingssysteem</td>
+								<td>Windows 10</td>
+							</tr>
+
+
+						</table>
+					</div>
 				</div>
+
 			</div>
 		</div>
 
-<div class="full_width footerwrapper">
+		<div class="full_width footerwrapper">
 		<div class="footer_info">
 			<div class="procent_33 contactinfo">
 				<h1>PC4U</h1>
@@ -246,6 +289,11 @@
 				Developed by JR-Webdevelopment
 			</span>
 		</div>
+	</div>
+	<div id="fullImage">
+		<a href="#" class="fullImage_cancel">&times;</a>
+	</div>
+	<div id="fullImage_cover">
 	</div>
 </body>
 </html>
