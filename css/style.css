@@ -606,21 +606,21 @@ a:visited{
         }
         #fullImage
         {
-            height:500px;
-            width:500px;
-            margin:0 auto;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            z-index:10;
+            height:500px !important;
+            width:500px !important;
+            margin:0 auto !important;
+            position: absolute !important;
+            left: 50% !important;
+            top: 50% !important;
+            z-index:10 !important;
             display:none;
             background: url(../images/pc-image2.png) no-repeat;
-            background-size: 100% 100%;
-            background-color: #cccccc;
-            border:5px solid #A4A4A4;
-            border-radius:10px;
-            margin-left: -250px;
-            margin-top: -250px;
+            background-size: 100% 100% !important;
+            background-color: #cccccc !important;
+            border:5px solid #A4A4A4 !important;
+            border-radius:10px !important;
+            margin-left: -250px !important;
+            margin-top: -250px !important;
 
         }
         #fullImage:target, #fullImage:target + #fullImage_cover{
