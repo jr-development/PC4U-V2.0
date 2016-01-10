@@ -591,8 +591,8 @@ a:visited{
         .specstable td, .specs td{
             font-size: 15px;
             width: 10%;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 3px;
+            padding-right: 3px;
         }
 
         .specstable tr:nth-child(even), .specs tr:nth-child(even){
