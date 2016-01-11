@@ -13,11 +13,12 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font-family: 'Minion Pro';
+	font-family: 'Tahoma';
 	font-size: 18px;
 }
 
 button{
+    font-family: 'Verdana';
     width: 100%;
     height: 40px;
     background: #c71610;
@@ -618,21 +619,21 @@ a:visited{
         }
         #fullImage
         {
-            height:500px;
-            width:500px;
-            margin:0 auto;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            z-index:10;
-            display:none;
+            height:500px ;
+            width:500px ;
+            margin: 0 auto !important;
+            position: absolute !important;
+            left: 50% !important;
+            top: 50% !important;
+            z-index:10 ;
+            display:none ;
             background: url(../images/pc-image2.png) no-repeat;
-            background-size: 100% 100%;
-            background-color: #cccccc;
-            border:5px solid #A4A4A4;
-            border-radius:10px;
-            margin-left: -250px;
-            margin-top: -250px;
+            background-size: 80% 80% !important;
+            background-color: #cccccc !important ;
+            border:5px solid #A4A4A4 ;
+            border-radius:10px ;
+            margin-left: -250px !important;
+            margin-top: -250px !important
 
         }
         #fullImage:target, #fullImage:target + #fullImage_cover{
