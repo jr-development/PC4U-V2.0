@@ -1,221 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>PC4U</title>
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-	<div class="wrapper">
-		<div class="header">
-		<div class="header_overlay">
-			<div class="logo">
-			</div>
-			<a href="winkelwagen.html">
-				<div class="cart">
-				</div>
-			</a>
-		</div>
-		</div>
-
-		<div class="menu-content_wrapper">
-			<div class="menu">
-                <ul class="ca-menu">
-                    <li class="active">
-                        <a href="index.html">
-                            <span class="ca-icon">A</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Home</h2>
-                            
-                        </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="softhardware.html">
-                            <span class="ca-icon">e</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Soft- en hardware</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="computer.html">
-                            <span class="ca-icon">F</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Computers</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="reparatie.html">
-                            <span class="ca-icon">@​</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Reparatie</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                 		<a href="informatie.html">
-                 			<span class="ca-icon">S</span>
-                 			<div class="ca-content">
-                 				<h2 class="ca-main">
-                 					Informatie
-                 				</h2>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-			<div class="content_wrapper">	
-
-	<!-- content registreren hier -->
-		
-			<div class="full_width"><h1>Register</h1></div>
-			<form action="submit.php" method="">
-				<div class="form-group">
-					<label for="">Voornaam</label>
-					<input id="forename"name="forename" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Achternaam</label>
-					<input id= "lastname" name="lastname" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Adres</label>
-					<input id="adress" name="adress" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Postcode</label>
-					<input id="postalcode" name="postalcode" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Woonplaats</label>
-					<input id="city" name="city" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">e-mail</label>
-					<input id="e-mail" name="e-mail" type="email" required>
-				</div>
-				<div class="form-group">
-					<label for="">telefoonnummer</label>
-					<input id="phonenumber" name="phonenumber" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Username</label>
-					<input id="username" name="username" type="text">
-				</div>
-				<div class="form-group">
-					<label for="">Password</label>
-					<input pattern=".{8,}" id="Password" name="Password" type="password" placeholder="minimaal 8 karakters"> <!-- minimaal 8 ch -->
-				</div>
-				<div class="form-group">
-					<label for="">Password again</label>
-					<input id="Password-again" name="Password-again" type="password" pattern=".{8,}">
-				</div>
-				<div class="form-group">
-					<label for="">Geboorte datum</label>
-					<input id="dob" name="dob" type="date">
-				</div>
-				<div class="form-group">
-					<label for="">Reden van aanmelding</label>
-					<input id="Reden" name="Reden" type="textarea">
-				</div>
-				<div class="form-group">
-					<label for="">Geslacht:</label><br><br>
-					<label for="" class="flex-end">Man</label>
-					<input id="sex" name="gender" value="man" type="radio" class="flex-end" >
-					<label for="" class="flex-end">Vrouw</label>
-					<input id="sex" name="gender" value="woman" type="radio" class="flex-end">
-				</div>
-				<div class="form-group">
-					<label for="">Nieuwsbrief</label>
-					<input id="newsletter" name="newsletter" type="checkbox">
-				</div>
-				<div class="form-group">
-					<label for="">Terms of agreement</label>
-					<input id="toa" name="toa" type="checkbox">
-				</div>
-				<div class="center">
-					<input type="submit" value="Register">
-				</div>
-			</form>
-			<div class="center">
-				<a href="login.html"> Login </a>
-			</div>
-		</div>
-
-
-<div class="full_width footerwrapper">
-		<div class="footer_info">
-			<div class="procent_33 contactinfo">
-				<h1>PC4U</h1>
-				<ul>
-					<li>Terheijdenseweg 350</li>
-					<li>4826 AA Breda</li>
-				</ul>
-
-				<ul>
-					<li>T: 076 573 34 44</li>
-					<li>E: info@pc4u.nl</li>
-				</ul>
-
-				<ul>
-					<li>KvK: 12345678</li>
-				</ul>
-			</div>
-			<div class="procent_33 openinghours">
-				<h1>Openingstijden</h1>
-				<div class="procent_50">
-				<ul>
-					<li>Maandag:</li>
-					<li>Dinsdag:</li>
-					<li>Woensdag:</li>
-					<li>Donderdag:</li>
-					<li>Vrijdag:</li>
-					<li>Zaterdag:</li>
-					<li>Zondag:</li>
-				</ul>
-				</div>
-				<div class="procent_50">
-				<ul>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 20:00</li>
-					<li>10:00 - 17:00</li>
-					<li>10:00 - 17:00</li>
-					<li>Gesloten</li>
-				</ul>
+	<head>
+		<meta charset="UTF-8">
+		<title>PC4U</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="header_overlay">
+					<div class="logo">
+					</div>
+					<a href="winkelwagen.html">
+						<div class="cart">
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="procent_33 socialmedia">
-				<h1>Social Media</h1>
-				<div class="socialicons">
-					<div class="socialicon"><a href="https://www.facebook.com"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></a></div>
-					<div class="socialicon"><a href="https://www.twitter.com"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></a></div>
-					<div class="socialicon"><a href="https://plus.google.com"><img src="images/socialmedia/google.png" height="30" width="30" alt="Google"></a></div>
-					<div class="socialicon"><a href="mailto:info@pc4u.nl"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></a></div>
+			<div class="menu-content_wrapper">
+				<div class="menu">
+					<ul class="ca-menu">
+						<li class="active">
+							<a href="index.html">
+								<span class="ca-icon">A</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Home</h2>
+									
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="softhardware.html">
+								<span class="ca-icon">e</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Soft- en hardware</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="computer.html">
+								<span class="ca-icon">F</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Computers</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="reparatie.html">
+								<span class="ca-icon">@​</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Reparatie</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="informatie.html">
+								<span class="ca-icon">S</span>
+								<div class="ca-content">
+									<h2 class="ca-main">
+									Informatie
+									</h2>
+								</div>
+							</a>
+						</li>
+					</ul>
 				</div>
-
-				<h1>Betalingsmogelijkheden</h1>
-				<div class="payments">
-					<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
-					<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
-					<div class="payment"><img src="images/payments/creditcard.jpg" alt="Creditcard"></div>
-					<div class="payment"><img src="images/payments/rembours.png" alt="Rembours"></div>
+				<div class="content_wrapper">
+					<!-- content registreren hier -->
+					
+					<div class="full_width"><h1>Register</h1></div>
+					<form action="submit.php" method="">
+						<div class="form-group">
+							<label for="">Voornaam</label>
+							<input id="forename"name="forename" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Achternaam</label>
+							<input id= "lastname" name="lastname" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Adres</label>
+							<input id="adress" name="adress" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Postcode</label>
+							<input id="postalcode" name="postalcode" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Woonplaats</label>
+							<input id="city" name="city" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">e-mail</label>
+							<input id="e-mail" name="e-mail" type="email" required>
+						</div>
+						<div class="form-group">
+							<label for="">telefoonnummer</label>
+							<input id="phonenumber" name="phonenumber" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Username</label>
+							<input id="username" name="username" type="text">
+						</div>
+						<div class="form-group">
+							<label for="">Password</label>
+							<input pattern=".{8,}" id="Password" name="Password" type="password" placeholder="minimaal 8 karakters"> <!-- minimaal 8 ch -->
+						</div>
+						<div class="form-group">
+							<label for="">Password again</label>
+							<input id="Password-again" name="Password-again" type="password" pattern=".{8,}">
+						</div>
+						<div class="form-group">
+							<label for="">Geboorte datum</label>
+							<input id="dob" name="dob" type="date">
+						</div>
+						<div class="form-group">
+							<label for="">Reden van aanmelding</label>
+							<input id="Reden" name="Reden" type="textarea">
+						</div>
+						<div class="form-group">
+							<label for="">Geslacht:</label>
+							<div class="custom_box">
+								<label for="" class="flex-end">Man</label>
+								<input id="sex" name="gender" value="man" type="radio" class="radio_button" >
+								<label for="" class="flex-end">Vrouw</label>
+								<input id="sex" name="gender" value="woman" type="radio" class="radio_button">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="">Nieuwsbrief</label>
+							<input id="newsletter" name="newsletter" type="checkbox">
+						</div>
+						<div class="form-group">
+							<label for="">Terms of agreement</label>
+							<input id="toa" name="toa" type="checkbox">
+						</div>
+						<div class="center">
+							<input type="submit" value="Register">
+						</div>
+					</form>
+					<div class="center">
+						<a href="login.html"> Login </a>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<span class="copyright">
-				Copyright &copy; 2016 PC4U. Alle rechten voorbehouden.
-			</span>
-
-			<span class="madeby">
-				Developed by JR-Webdevelopment
-			</span>
-		</div>
-	</div>
-</body>
-</html>
+				<div class="full_width footerwrapper">
+					<div class="footer_info">
+						<div class="procent_33 contactinfo">
+							<h1>PC4U</h1>
+							<ul>
+								<li>Terheijdenseweg 350</li>
+								<li>4826 AA Breda</li>
+							</ul>
+							<ul>
+								<li>T: 076 573 34 44</li>
+								<li>E: info@pc4u.nl</li>
+							</ul>
+							<ul>
+								<li>KvK: 12345678</li>
+							</ul>
+						</div>
+						<div class="procent_33 openinghours">
+							<h1>Openingstijden</h1>
+							<div class="procent_50">
+								<ul>
+									<li>Maandag:</li>
+									<li>Dinsdag:</li>
+									<li>Woensdag:</li>
+									<li>Donderdag:</li>
+									<li>Vrijdag:</li>
+									<li>Zaterdag:</li>
+									<li>Zondag:</li>
+								</ul>
+							</div>
+							<div class="procent_50">
+								<ul>
+									<li>09:00 - 18:00</li>
+									<li>09:00 - 18:00</li>
+									<li>09:00 - 18:00</li>
+									<li>09:00 - 20:00</li>
+									<li>10:00 - 17:00</li>
+									<li>10:00 - 17:00</li>
+									<li>Gesloten</li>
+								</ul>
+							</div>
+						</div>
+						<div class="procent_33 socialmedia">
+							<h1>Social Media</h1>
+							<div class="socialicons">
+								<div class="socialicon"><a href="https://www.facebook.com"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></a></div>
+								<div class="socialicon"><a href="https://www.twitter.com"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></a></div>
+								<div class="socialicon"><a href="https://plus.google.com"><img src="images/socialmedia/google.png" height="30" width="30" alt="Google"></a></div>
+								<div class="socialicon"><a href="mailto:info@pc4u.nl"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></a></div>
+							</div>
+							<h1>Betalingsmogelijkheden</h1>
+							<div class="payments">
+								<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
+								<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
+								<div class="payment"><img src="images/payments/creditcard.jpg" alt="Creditcard"></div>
+								<div class="payment"><img src="images/payments/rembours.png" alt="Rembours"></div>
+							</div>
+						</div>
+					</div>
+					<div class="footer">
+						<span class="copyright">
+							Copyright &copy; 2016 PC4U. Alle rechten voorbehouden.
+						</span>
+						<span class="madeby">
+							Developed by JR-Webdevelopment
+						</span>
+					</div>
+				</div>
+			</body>
+		</html>
