@@ -80,6 +80,14 @@ input, select, textarea{
     margin-bottom: 10px;
 }
 
+input[type="radio"], input[type="checkbox"] {
+    display: inline;
+    width: 10%;
+}
+
+.custom_box {
+    margin: 8px 0 8px 0;
+}
 
 .wrapper{
 	width: 70%;
