@@ -85,6 +85,38 @@ input[type="radio"], input[type="checkbox"] {
     width: 10%;
 }
 
+.login_form {
+    box-sizing: border-box;
+    padding: 10px;
+    background: lightgrey;
+    width: 350px;
+    height: 100%;
+    margin-right: 190px;
+    margin-left: 20px;
+    border: 1px #000 solid
+    margin-bottom: px;
+}
+
+.login_form input {
+    width: 35%;
+}
+
+.login_form h1 {
+    font-size: 24px;
+}
+
+.login_form h3 {
+    font-size: 20px;
+}
+
+.flexbox {
+    display: flex;
+    
+    height: 35px;
+    width: 100%;
+
+}
+
 .custom_box {
     margin: 8px 0 8px 0;
 }
@@ -105,13 +137,15 @@ input[type="radio"], input[type="checkbox"] {
     box-sizing: border-box;
 }
 
-.header h1:hover {
-    font-size: 28px;
-    color: white;
+.header_overlay {
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.header h1 {
-   
+
+.login_form h3:hover {
+    color: #C71610;
 }
 
 .logo{
@@ -119,19 +153,18 @@ input[type="radio"], input[type="checkbox"] {
     background-repeat: no-repeat;
     height: 120px;
     width: 400px;
-    float: left;
     vertical-align: middle;
     background-size: 100% 100%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .cart{
     background-image: url('../images/winkelwagen.png');
     background-repeat: no-repeat;
-    width: 6%;
+    width: 60px;
     background-size: 100% 100%;
     float: right;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-right: 50px;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
