@@ -960,7 +960,7 @@ a:visited{
   height: 350px;
   overflow: hidden;
   position: relative;
-  
+  background: url("..images/beige_paper.png");
   margin: 20px auto;
 }
 #images div {
@@ -968,7 +968,7 @@ a:visited{
   height: 350px;
   margin-left: 150px;
   position: absolute;
-  background: url("images/beige_paper.png");
+  background: url("../images/beige_paper.png");
   left: -400px;
   z-index: 1;
   opacity: 0;
@@ -996,6 +996,7 @@ a:visited{
 
 #slider {
     text-align: center;
+    background: url("images/beige_paper.png")
 }
 
 #slider a {
