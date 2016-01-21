@@ -1,238 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Productpagina</title>
-	<link rel="stylesheet" href="css/style.css">
-	<style>
-		#fullImage {
-			background: url(images/msi_gtx980ti_gold.png) no-repeat;
-		}
-
-	</style>
-
-</head>
-<body>
-	<div class="wrapper">
-		<div class="header">
-		<div class="header_overlay">
-			<div class="logo">
-			</div>
-			<a href="winkelwagen.html">
-				<div class="cart">
-				</div>
-			</a>
-		</div>
-		</div>
-
-		<div class="menu-content_wrapper">
-			<div class="menu">
-                <ul class="ca-menu">
-                    <li>
-                        <a href="index.html">
-                            <span class="ca-icon">A</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Home</h2>
-                            
-                        </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="softhardware.html">
-                            <span class="ca-icon">e</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Soft- en hardware</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="computer.html">
-                            <span class="ca-icon">F</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Computers</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="reparatie.html">
-                            <span class="ca-icon">@​</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Reparatie</h2>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                 		<a href="informatie.html">
-                 			<span class="ca-icon">S</span>
-                 			<div class="ca-content">
-                 				<h2 class="ca-main">
-                 					Informatie
-                 				</h2>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-			<div class="content_wrapper">
-				
-				<div class="procent_33">
-					<div class="productimgs">
-						<a href="#fullImage"><img src="images/msi_gtx980ti_gold.png" alt="pc" class="productimg"></a>
-						<div class="thumbnails">
-							<div class="thumbnail">
-								<a href="#fullImage">
-									<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
-								</a>
-							</div>
-							<div class="thumbnail">
-								<a href="#fullImage">
-									<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
-								</a>
-							</div>
-							<div class="thumbnail">
-								<a href="#fullImage">
-									<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
-								</a>
-							</div>
-							<div class="thumbnail">
-								<a href="#fullImage">
-									<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
-								</a>
-							</div>
-						</div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Productpagina</title>
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			#fullImage {
+				background: url(images/msi_gtx980ti_gold.png) no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="header_overlay">
+					<div class="logo">
 					</div>
-					<div class="specs">
-						<h1>Populaire specificaties</h1>
-					<table>
-							<tr>
-								<td>Videochip</td>
-								<td>GeForce GTX 980 Ti</td>
-							</tr>
-							<tr>
-								<td>Chipset generatie</td>
-								<td>GeForce 900 Serie</td>
-							</tr>
-							<tr>
-								<td>Videochipfabrikant</td>
-								<td>Nvidia</td>
-							</tr>
-							<tr>
-								<td>Geheugengrootte</td>
-								<td>6GB</td>
-							</tr>
-							<tr>
-								<td>Geheugen Type (videokaarten</td>
-								<td>GDDR5</td>
-							</tr>
-							<tr>
-								<td>Geheugensnelheid</td>
-								<td>7.1GHz</td>
-							</tr>
-						</table>
+					<div class="login_form">
 						
-					</div>
-				</div>
-
-				<div class="procent_33">
-					<div class="productinfo">
-						<h1>MSI GTX 980Ti</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam eius, id officia dolores omnis vero fuga nisi iusto, tempora ab pariatur ex dolore fugiat. Modi officiis, porro veritatis aliquid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente eos maxime maiores a nam nemo ullam omnis adipisci, provident deserunt recusandae hic nesciunt officia illo fugiat harum consequuntur ex.</p>
-						<div class="buy">
-							<div class="procent_50">
-								<h3 class="price">€ 799,00</h3>
+						<h1>Login</h1>
+						<form action="submit.php" method="">
+							<div class="flexbox">
+								<div class="username">
+									<label for="username"> Username: </label>
+									<input name="username" id="username" type="text" >
+								</div>
+								
+								<div class="password">
+									<label for="password"> Password: </label>
+									<input name="password" id="password" type="password">
+								</div>
 							</div>
-							<div class="procent_50">
-								<a href="winkelwagen.html" class="href"><button>Bestellen</button></a>
+							<input type="submit" value="login">
+						</form>
+						
+						<a href="register.html"> <h3>Register</h3> </a>
+					</div>
+					<a href="winkelwagen.html">
+						<div class="cart">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="menu-content_wrapper">
+				<div class="menu">
+					<ul class="ca-menu">
+						<li>
+							<a href="index.html">
+								<span class="ca-icon">A</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Home</h2>
+									
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="softhardware.html">
+								<span class="ca-icon">e</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Soft- en hardware</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="computer.html">
+								<span class="ca-icon">F</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Computers</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="reparatie.html">
+								<span class="ca-icon">@​</span>
+								<div class="ca-content">
+									<h2 class="ca-main">Reparatie</h2>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="informatie.html">
+								<span class="ca-icon">S</span>
+								<div class="ca-content">
+									<h2 class="ca-main">
+									Informatie
+									</h2>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content_wrapper">
+					
+					<div class="procent_33">
+						<div class="productimgs">
+							<a href="#fullImage"><img src="images/msi_gtx980ti_gold.png" alt="pc" class="productimg"></a>
+							<div class="thumbnails">
+								<div class="thumbnail">
+									<a href="#fullImage">
+										<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
+									</a>
+								</div>
+								<div class="thumbnail">
+									<a href="#fullImage">
+										<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
+									</a>
+								</div>
+								<div class="thumbnail">
+									<a href="#fullImage">
+										<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
+									</a>
+								</div>
+								<div class="thumbnail">
+									<a href="#fullImage">
+										<img src="images/msi_gtx980ti_gold.png" alt="pc thumbnail">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="specs">
+							<h1>Populaire specificaties</h1>
+							<table>
+								<tr>
+									<td>Videochip</td>
+									<td>GeForce GTX 980 Ti</td>
+								</tr>
+								<tr>
+									<td>Chipset generatie</td>
+									<td>GeForce 900 Serie</td>
+								</tr>
+								<tr>
+									<td>Videochipfabrikant</td>
+									<td>Nvidia</td>
+								</tr>
+								<tr>
+									<td>Geheugengrootte</td>
+									<td>6GB</td>
+								</tr>
+								<tr>
+									<td>Geheugen Type (videokaarten</td>
+									<td>GDDR5</td>
+								</tr>
+								<tr>
+									<td>Geheugensnelheid</td>
+									<td>7.1GHz</td>
+								</tr>
+							</table>
+							
+						</div>
+					</div>
+					<div class="procent_33">
+						<div class="productinfo">
+							<h1>MSI GTX 980Ti</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam eius, id officia dolores omnis vero fuga nisi iusto, tempora ab pariatur ex dolore fugiat. Modi officiis, porro veritatis aliquid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente eos maxime maiores a nam nemo ullam omnis adipisci, provident deserunt recusandae hic nesciunt officia illo fugiat harum consequuntur ex.</p>
+							<div class="buy">
+								<div class="procent_50">
+									<h3 class="price">€ 799,00</h3>
+								</div>
+								<div class="procent_50">
+									<a href="winkelwagen.html" class="href"><button>Bestellen</button></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="procent_33">
-					<div class="specstable">
-					<h1>Specificaties</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ullam nam quo, officiis cum, maiores fugit officia repudiandae quos. Similique omnis sequi modi fuga accusantium nostrum a? Provident, mollitia, recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ut aliquid veniam veritatis, quos minima, dolorum sapiente aut atque impedit corporis, dolores recusandae consequuntur harum provident iure perferendis distinctio. Iure!</p>
+					<div class="procent_33">
+						<div class="specstable">
+							<h1>Specificaties</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ullam nam quo, officiis cum, maiores fugit officia repudiandae quos. Similique omnis sequi modi fuga accusantium nostrum a? Provident, mollitia, recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ut aliquid veniam veritatis, quos minima, dolorum sapiente aut atque impedit corporis, dolores recusandae consequuntur harum provident iure perferendis distinctio. Iure!</p>
+						</div>
 					</div>
 				</div>
-
 			</div>
-		</div>
-
-		<div class="full_width footerwrapper">
-		<div class="footer_info">
-			<div class="procent_33 contactinfo">
-				<h1>PC4U</h1>
-				<ul>
-					<li>Terheijdenseweg 350</li>
-					<li>4826 AA Breda</li>
-				</ul>
-
-				<ul>
-					<li>T: 076 573 34 44</li>
-					<li>E: info@pc4u.nl</li>
-				</ul>
-
-				<ul>
-					<li>KvK: 12345678</li>
-				</ul>
+			<div class="full_width footerwrapper">
+				<div class="footer_info">
+					<div class="procent_33 contactinfo">
+						<h1>PC4U</h1>
+						<ul>
+							<li>Terheijdenseweg 350</li>
+							<li>4826 AA Breda</li>
+						</ul>
+						<ul>
+							<li>T: 076 573 34 44</li>
+							<li>E: info@pc4u.nl</li>
+						</ul>
+						<ul>
+							<li>KvK: 12345678</li>
+						</ul>
+					</div>
+					<div class="procent_33 openinghours">
+						<h1>Openingstijden</h1>
+						<div class="procent_50">
+							<ul>
+								<li>Maandag:</li>
+								<li>Dinsdag:</li>
+								<li>Woensdag:</li>
+								<li>Donderdag:</li>
+								<li>Vrijdag:</li>
+								<li>Zaterdag:</li>
+								<li>Zondag:</li>
+							</ul>
+						</div>
+						<div class="procent_50">
+							<ul>
+								<li>09:00 - 18:00</li>
+								<li>09:00 - 18:00</li>
+								<li>09:00 - 18:00</li>
+								<li>09:00 - 20:00</li>
+								<li>10:00 - 17:00</li>
+								<li>10:00 - 17:00</li>
+								<li>Gesloten</li>
+							</ul>
+						</div>
+					</div>
+					<div class="procent_33 socialmedia">
+						<h1>Social Media</h1>
+						<div class="socialicons">
+							<div class="socialicon"><a href="https://www.facebook.com"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></a></div>
+							<div class="socialicon"><a href="https://www.twitter.com"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></a></div>
+							<div class="socialicon"><a href="https://plus.google.com"><img src="images/socialmedia/google.png" height="30" width="30" alt="Google"></a></div>
+							<div class="socialicon"><a href="mailto:info@pc4u.nl"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></a></div>
+						</div>
+						<h1>Betalingsmogelijkheden</h1>
+						<div class="payments">
+							<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
+							<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
+							<div class="payment"><img src="images/payments/creditcard.jpg" alt="Creditcard"></div>
+							<div class="payment"><img src="images/payments/rembours.png" alt="Rembours"></div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<span class="copyright">
+						Copyright &copy; 2016 PC4U. Alle rechten voorbehouden.
+					</span>
+					<span class="madeby">
+						Developed by JR-Webdevelopment
+					</span>
+				</div>
 			</div>
-			<div class="procent_33 openinghours">
-				<h1>Openingstijden</h1>
-				<div class="procent_50">
-				<ul>
-					<li>Maandag:</li>
-					<li>Dinsdag:</li>
-					<li>Woensdag:</li>
-					<li>Donderdag:</li>
-					<li>Vrijdag:</li>
-					<li>Zaterdag:</li>
-					<li>Zondag:</li>
-				</ul>
-				</div>
-				<div class="procent_50">
-				<ul>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 18:00</li>
-					<li>09:00 - 20:00</li>
-					<li>10:00 - 17:00</li>
-					<li>10:00 - 17:00</li>
-					<li>Gesloten</li>
-				</ul>
-				</div>
+			<div id="fullImage">
+				<a href="#" class="fullImage_cancel">&times;</a>
 			</div>
-			<div class="procent_33 socialmedia">
-				<h1>Social Media</h1>
-				<div class="socialicons">
-					<div class="socialicon"><a href="https://www.facebook.com"><img src="images/socialmedia/facebook.png" height="30" width="30" alt="Facebook"></a></div>
-					<div class="socialicon"><a href="https://www.twitter.com"><img src="images/socialmedia/twitter.png" height="30" width="30" alt="Twitter"></a></div>
-					<div class="socialicon"><a href="https://plus.google.com"><img src="images/socialmedia/google.png" height="30" width="30" alt="Google"></a></div>
-					<div class="socialicon"><a href="mailto:info@pc4u.nl"><img src="images/socialmedia/mail.png" height="30" width="30" alt="Mail"></a></div>
-				</div>
-
-				<h1>Betalingsmogelijkheden</h1>
-				<div class="payments">
-					<div class="payment"><img src="images/payments/ideal.jpg" alt="ideal"></div>
-					<div class="payment"><img src="images/payments/paypal.jpeg" alt="paypal"></div>
-					<div class="payment"><img src="images/payments/creditcard.jpg" alt="Creditcard"></div>
-					<div class="payment"><img src="images/payments/rembours.png" alt="Rembours"></div>
-				</div>
+			<div id="fullImage_cover">
 			</div>
-		</div>
-		<div class="footer">
-			<span class="copyright">
-				Copyright &copy; 2016 PC4U. Alle rechten voorbehouden.
-			</span>
-
-			<span class="madeby">
-				Developed by JR-Webdevelopment
-			</span>
-		</div>
-	</div>
-	<div id="fullImage">
-		<a href="#" class="fullImage_cancel">&times;</a>
-	</div>
-	<div id="fullImage_cover">
-	</div>
-</body>
-</html>
+		</body>
+	</html>
