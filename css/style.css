@@ -607,6 +607,10 @@ a:visited{
             padding: 15px;
         }
 
+        .specs {
+
+        }
+
         .specs p, .productinfo p{
             margin-top: 7px;
         }
@@ -712,7 +716,10 @@ a:visited{
             color: #c71610;
         }
 
-
+        .image img{
+            max-height: 200px;
+            min-height: 200px;
+        }
 
 /* reparatie.html */
         
@@ -948,7 +955,7 @@ a:visited{
 
         }
 
-                #images {
+#images {
   width: 700px;
   height: 350px;
   overflow: hidden;
@@ -957,9 +964,9 @@ a:visited{
   margin: 20px auto;
 }
 #images div {
-  width: 700px;
+  /*width: 700px;*/
   height: 350px;
-  
+  margin-left: 150px;
   position: absolute;
   background: url("images/beige_paper.png");
   left: -400px;
